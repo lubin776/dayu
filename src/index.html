@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="__SITE_LANG__">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__SITE_TITLE__ · __SITE_SUBTITLE__</title>
+  <meta name="description" content="__SITE_DESCRIPTION__">
+  <meta name="author" content="__SITE_AUTHOR__">
+  <meta property="og:title" content="__SITE_TITLE__">
+  <meta property="og:description" content="__SITE_DESCRIPTION__">
+  <meta property="og:type" content="website">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="__RSS_HREF__">
+  <link rel="stylesheet" href="__STYLES_HREF__">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="__BACK_HREF__">
+        <span class="brand-name">__SITE_TITLE__</span>
+        <span class="brand-sub">__SITE_SUBTITLE__</span>
+      </a>
+      <nav class="site-nav">__NAV__</nav>
+      <button class="menu-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <img class="avatar" src="__AVATAR__" alt="avatar">
+        <h1 class="greeting">__GREETING__</h1>
+        <p class="hero-bio">__BIO__</p>
+        <p class="hero-location">__LOCATION__</p>
+        <div class="stats">__STATS__</div>
+        <div class="social">__SOCIAL__</div>
+      </div>
+    </section>
+
+    <!-- 文章列表 -->
+    <section class="section" id="posts">
+      <div class="container">
+        <header class="section-head"><h2>最新文章</h2><span class="section-line"></span></header>
+        <div class="card-grid">__POST_CARDS__</div>
+      </div>
+    </section>
+
+    <!-- 归档 -->
+    <section class="section section-alt" id="archive">
+      <div class="container two-col">
+        <div>
+          <header class="section-head"><h2>归档</h2><span class="section-line"></span></header>
+          <ul class="archive-list">__ARCHIVE_ITEMS__</ul>
+        </div>
+        <div>
+          <header class="section-head"><h2>标签</h2><span class="section-line"></span></header>
+          <div class="tag-cloud">__TAGS__</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 -->
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div>
+          <header class="section-head"><h2>__ABOUT_HEADING__</h2><span class="section-line"></span></header>
+          <div class="about-text">__ABOUT__</div>
+        </div>
+        <div>
+          <header class="section-head"><h2>技能栈</h2><span class="section-line"></span></header>
+          <ul class="skill-list">__SKILLS__</ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 友链 -->
+    <section class="section section-alt" id="links">
+      <div class="container">
+        <header class="section-head"><h2>友链</h2><span class="section-line"></span></header>
+        <ul class="link-list">__LINKS__</ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="copyright">__COPYRIGHT__</p>
+      __ICP__
+      <p class="powered">__POWERED__</p>
+    </div>
+  </footer>
+
+  <script>window.SITE_CONFIG = '__CONFIG_JSON__';</script>
+  <script src="__APP_HREF__"></script>
+</body>
+</html>

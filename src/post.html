@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="__SITE_LANG__">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__POST_TITLE__ · __SITE_TITLE__</title>
+  <meta name="description" content="__SITE_DESCRIPTION__">
+  <meta name="author" content="__SITE_AUTHOR__">
+  <meta property="og:title" content="__POST_TITLE__">
+  <meta property="og:description" content="__SITE_DESCRIPTION__">
+  <meta property="og:type" content="article">
+  <link rel="stylesheet" href="__STYLES_HREF__">
+</head>
+<body class="page-post">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="__BACK_HREF__">
+        <span class="brand-name">__SITE_TITLE__</span>
+        <span class="brand-sub">__SITE_SUBTITLE__</span>
+      </a>
+      <nav class="site-nav">__NAV__</nav>
+      <button class="menu-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="container post-container">
+    <a class="back-link" href="__BACK_HREF__">__POST_BACK__</a>
+
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">__POST_TITLE__</h1>
+        <div class="post-meta">
+          <time>__POST_DATE__</time>
+          __POST_UPDATED__
+          <span class="post-tags-inline">__POST_TAGS__</span>
+        </div>
+      </header>
+
+      __POST_COVER__
+      __POST_TOC__
+      <div class="post-body markdown-body">__POST_BODY__</div>
+    </article>
+
+    <nav class="post-nav">__POST_NAV_PREV____POST_NAV_NEXT__</nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="copyright">__COPYRIGHT__</p>
+      __ICP__
+      <p class="powered">__POWERED__</p>
+      <div class="social">__SOCIAL__</div>
+    </div>
+  </footer>
+
+  <script>window.SITE_CONFIG = '__CONFIG_JSON__';</script>
+  <script src="__APP_HREF__"></script>
+</body>
+</html>
