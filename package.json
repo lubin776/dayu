@@ -1,15 +1,12 @@
 {
-  "name": "blog-template",
+  "name": "tvbox-web",
   "version": "1.0.0",
-  "description": "极简个人博客模板：内容写在配置里，文章用 Markdown，部署在 GitHub Pages",
-  "private": true,
+  "description": "A web-based TVBox player with built-in ad filtering deployed on Cloudflare Pages",
+  "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "dev": "node build.js --watch",
-    "start": "node build.js && npx serve dist"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "chokidar": "^3.6.0"
-  }
+  "keywords": ["tvbox", "cloudflare", "pages"],
+  "author": "",
+  "license": "MIT"
 }
